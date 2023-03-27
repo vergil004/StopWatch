@@ -1,0 +1,17 @@
+<template>
+  <svg width="17" height="20" viewBox="0 0 17 20" :fill="color" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 20V0L17 10L0 20Z" :fill="color"/>
+  </svg>
+</template>
+
+<script>
+export default {
+  props:{
+    color: String
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
